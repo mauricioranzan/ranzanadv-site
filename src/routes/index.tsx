@@ -102,11 +102,11 @@ function Index() {
           className="hero-in w-64 max-w-full sm:w-80"
           loading="eager"
         />
-        <h1 className="hero-in d1 mt-10 font-display text-2xl font-light uppercase leading-relaxed tracking-[0.18em] sm:text-3xl">
+        <h1 className="hero-in d1 mt-10 flex max-w-full flex-wrap items-center justify-center gap-x-2 gap-y-1 font-display text-2xl font-light uppercase leading-relaxed tracking-[0.18em] sm:text-3xl">
           <span className="text-primary">Ambiental</span>
-          <span className="mx-3 text-muted-foreground/60">·</span>
+          <span className="text-muted-foreground/60">·</span>
           <span className="text-primary">Agro</span>
-          <span className="mx-3 text-muted-foreground/60">·</span>
+          <span className="text-muted-foreground/60">·</span>
           <span className="text-primary">Fundiário</span>
         </h1>
         <p className="hero-in d2 mt-6 max-w-md text-sm font-light leading-relaxed text-muted-foreground">
