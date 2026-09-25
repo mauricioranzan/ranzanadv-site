@@ -126,7 +126,8 @@
 
 .contour-field {
   position: absolute;
-  inset: 0;
+  inset: 0 0 auto;
+  height: min(90svh, 1000px);
   overflow: hidden;
   pointer-events: none;
   z-index: 0;

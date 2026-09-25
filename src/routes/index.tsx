@@ -72,7 +72,7 @@ const contours = [
 function ContourField() {
   return (
     <div className="contour-field" aria-hidden="true">
-      <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" fill="none">
+      <svg viewBox="0 0 1440 900" preserveAspectRatio="none" fill="none">
         <defs>
           <linearGradient id="contour-tone" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stopColor="var(--contour-neutral)" />
