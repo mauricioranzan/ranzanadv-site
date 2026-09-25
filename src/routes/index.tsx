@@ -166,8 +166,8 @@ function Index() {
       <section className="relative z-10 mx-auto max-w-3xl px-6 pb-28 sm:pb-36">
         <blockquote className="reveal text-center">
           <p className="font-display text-2xl font-light leading-snug sm:text-3xl">
-            “Inteligência ambiental e territorial. Assessoria que protege o que é seu{" "}
-            <span className="text-primary">e permite que floresça.”</span>
+            Inteligência ambiental e territorial. Assessoria que protege o que é seu{" "}
+            <span className="text-primary">e permite que floresça.</span>
           </p>
         </blockquote>
       </section>
