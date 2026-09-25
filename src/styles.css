@@ -72,6 +72,9 @@
   --forest-deep: oklch(0.27 0.048 102);
   --cream: oklch(0.960 0.008 92);
   --sand: oklch(0.946 0.010 93.6);
+  --contour-olive: oklch(0.70 0.045 105);
+  --contour-orange: oklch(0.72 0.080 51);
+  --contour-neutral: oklch(0.84 0.015 95);
 }
 
 @layer base {
@@ -119,4 +122,31 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.contour-field {
+  position: absolute;
+  inset: 0 0 auto;
+  height: min(90svh, 1000px);
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.contour-field svg {
+  width: 100%;
+  height: 100%;
+  opacity: 0.45;
+  animation: contour-breathe 18s ease-in-out infinite alternate;
+}
+
+@keyframes contour-breathe {
+  from { opacity: 0.32; }
+  to { opacity: 0.58; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contour-field svg { animation: none; }
+  .hero-in { animation: none; }
+  .reveal { opacity: 1; transform: none; transition: none; }
 }

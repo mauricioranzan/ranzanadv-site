@@ -1,0 +1,3 @@
+- [x] Ajustar os seis textos solicitados na página inicial.
+- [x] Adicionar curvas de nível sutis com variação harmoniosa de cor no fundo.
+- [x] Conferir visual e funcionamento em desktop e celular.
