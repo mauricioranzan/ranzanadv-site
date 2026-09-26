@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
 import { createFileRoute } from "@tanstack/react-router";
-import logoVertical from "@/assets/logo-vertical.png.asset.json";
 import simbolo from "@/assets/simbolo.png.asset.json";
 
 const WHATSAPP_URL = "https://wa.me/5549984385949";
@@ -64,7 +63,7 @@ function Index() {
       {/* Hero */}
       <section className="relative z-10 flex min-h-[82svh] flex-col items-center justify-center px-6 py-20 text-center">
         <img
-          src={logoVertical.url}
+          src="/logo-ranzan.png"
           alt="Mauricio Ranzan — Advocacia Especializada"
           className="hero-in w-[23rem] max-w-full sm:w-[28.8rem]"
           loading="eager"

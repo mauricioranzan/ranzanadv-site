@@ -10,3 +10,4 @@
 <!-- LOVABLE:END -->
 
 - Mantenha o desenho de curvas de nível como SVG decorativo inline na página inicial, com cores e movimento definidos em `src/styles.css`, para preservar a paleta da marca e respeitar movimento reduzido.
+- Sirva a logomarca principal pela URL pública `/logo-ranzan.png`, mantendo o arquivo em `public/`, para que a imagem acompanhe builds Vite/Netlify sem depender do CDN da prévia.
