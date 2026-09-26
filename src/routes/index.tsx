@@ -13,13 +13,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Advocacia especializada em Direito Ambiental, Agro e Fundiário. Atendimento direto, técnico e personalizado.",
+          "Inteligência ambiental, agrária, fundiária e territorial. Advocacia especializada com atendimento direto, técnico e personalizado.",
       },
       { property: "og:title", content: "Mauricio Ranzan | Advocacia Especializada" },
       {
         property: "og:description",
         content:
-          "Advocacia especializada em Direito Ambiental, Agro e Fundiário. Atendimento direto, técnico e personalizado.",
+          "Inteligência ambiental, agrária, fundiária e territorial. Advocacia especializada com atendimento direto, técnico e personalizado.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
