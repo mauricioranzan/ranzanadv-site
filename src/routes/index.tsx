@@ -66,7 +66,7 @@ function Index() {
         <img
           src={logoVertical.url}
           alt="Mauricio Ranzan — Advocacia Especializada"
-          className="hero-in w-[19.2rem] max-w-full sm:w-96"
+          className="hero-in w-[23rem] max-w-full sm:w-[28.8rem]"
           loading="eager"
         />
         <h1 className="hero-in d1 mt-10 flex max-w-full flex-wrap items-center justify-center gap-x-2 gap-y-1 font-display text-xl font-light uppercase leading-relaxed tracking-[0.14em] sm:text-3xl sm:tracking-[0.18em]">
@@ -76,7 +76,7 @@ function Index() {
           <span className="text-muted-foreground/60">·</span>
           <span className="text-primary">Fundiário</span>
         </h1>
-        <p className="hero-in d2 mt-6 max-w-md text-sm font-light leading-relaxed text-muted-foreground">
+        <p className="hero-in d2 mt-6 max-w-md text-[1.05rem] font-light leading-relaxed text-muted-foreground">
           Inteligência ambiental, agrária, fundiária e territorial
         </p>
       </section>
@@ -126,9 +126,8 @@ function Index() {
       <section className="relative z-10 mx-auto max-w-3xl px-6 pb-28 sm:pb-36">
         <blockquote className="reveal text-center">
           <p className="font-display text-2xl font-light leading-snug sm:text-3xl">
-            Inteligência ambiental e territorial. Segurança jurídica para você produzir com
-            tranquilidade, preservar com estratégia e{" "}
-            <span className="text-primary">crescer com conformidade.</span>
+            Segurança jurídica para você produzir com tranquilidade, preservar com
+            estratégia e <span className="text-primary">crescer com conformidade.</span>
           </p>
         </blockquote>
       </section>
