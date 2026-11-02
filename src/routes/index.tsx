@@ -12,13 +12,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Inteligência ambiental, agrária, fundiária e territorial. Advocacia especializada com atendimento direto, técnico e personalizado.",
+          "Inteligência ambiental e territorial. Advocacia especializada com atendimento direto, técnico e personalizado.",
       },
       { property: "og:title", content: "Mauricio Ranzan | Advocacia Especializada" },
       {
         property: "og:description",
         content:
-          "Inteligência ambiental, agrária, fundiária e territorial. Advocacia especializada com atendimento direto, técnico e personalizado.",
+          "Inteligência ambiental e territorial. Advocacia especializada com atendimento direto, técnico e personalizado.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -76,7 +76,7 @@ function Index() {
           <span className="text-primary">Fundiário</span>
         </h1>
         <p className="hero-in d2 mt-6 max-w-md text-[1.05rem] font-light leading-relaxed text-muted-foreground">
-          Inteligência ambiental, agrária, fundiária e territorial
+          Inteligência ambiental e territorial
         </p>
       </section>
 
